@@ -1,0 +1,42 @@
+.top {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.top__logo {
+  font-weight: 900;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 160px;
+}
+
+.top__menu__li {
+  margin-right: 5px;
+}
+
+.top__menu__ul {
+  display: flex;
+  list-style: none;
+}
+
+.top__menu__li {
+  padding: 41px;
+  width: 75px;
+  font-size: 14px;
+}
+
+.top__menu__link {
+  text-decoration: none;
+  color: white;
+}
+
+.top__icon {
+  margin: 10px 10px;
+  padding: 31px 5px;
+}
