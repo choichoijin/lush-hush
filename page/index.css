@@ -1,66 +1,37 @@
-.top {
-  height: 100px;
+.main_ads__main_ad_img {
+  height: 580px;
   width: 100%;
-  background-color: black;
-  color: white;
-  display: flex;
+  opacity: 0.8;
+  position: absolute;
 }
 
-.top__logo {
-  font-weight: 900;
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 35px;
-  margin-right: 160px;
-}
-
-.top__menu__li {
-  margin-right: 5px;
-}
-
-.top__menu__ul {
-  display: flex;
-  list-style: none;
-}
-
-.top__menu__li {
-  padding: 41px;
-  width: 75px;
-  font-size: 14px;
-}
-
-.top__menu__link {
-  text-decoration: none;
-  color: white;
-}
-
-.top__icon {
-  margin: 10px 10px;
-  padding: 31px 5px;
-}
-
-.top__menu__sub {
-  width: 150px;
-  background-color: #333333;
-  color: #676e7d;
+.main_ads__main_ad_text {
   position: relative;
-  top: 26px;
-  right: 47px;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-  z-index: 10;
+  color: var(--grey);
+  top: 80px;
+  left: 100px;
 }
 
-.top__menu__sub__link {
-  text-decoration: none;
-  line-height: 35px;
-  text-align: center;
+.main_ads__main_ad_text div:first-of-type {
+  font-size: 50px;
+  line-height: 80px;
+  font-family: "Song Myung", serif;
 }
 
-.top__menu__li:nth-of-type(1):hover .top__menu__sub,
-.top__menu__li:nth-of-type(4):hover .top__menu__sub {
-  opacity: 1;
-  transform: translateY(18px);
+.main_ads__main_ad_text div:nth-of-type(2) {
+  font-size: 17px;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+}
+
+.main_ads__main_ad_btn {
+  height: 50px;
+  width: 180px;
+  font-size: 15px;
+  background-color: transparent;
+  color: var(--grey);
+  border: 1px solid var(--grey);
+  margin-top: 80px;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
 }
