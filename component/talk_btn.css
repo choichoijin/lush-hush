@@ -1,0 +1,24 @@
+.talk_btn {
+  width: 60px;
+  height: 90px;
+  border-radius: 30px;
+  background-color: var(--yellow);
+  z-index: 20;
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  position: fixed;
+}
+
+.talk_btn > i,
+.talk_btn__text {
+  color: #391b1b;
+  position: relative;
+  top: 15px;
+}
+
+.talk_btn__text {
+  font-size: 15px;
+  margin-top: 8px;
+}
