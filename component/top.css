@@ -2,7 +2,6 @@
   height: 100px;
   width: 100%;
   background-color: black;
-  color: white;
   display: flex;
 }
 
@@ -14,6 +13,11 @@
   justify-content: center;
   margin-left: 35px;
   margin-right: 160px;
+}
+
+.top__logo__link {
+  text-decoration: none;
+  color: white;
 }
 
 .top__menu__li {
