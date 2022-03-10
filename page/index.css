@@ -31,7 +31,21 @@
   background-color: transparent;
   color: var(--grey);
   border: 1px solid var(--grey);
-  margin-top: 80px;
+  margin-top: 60px;
   font-family: "Gothic A1", sans-serif;
   font-weight: 900;
+}
+
+.main_ads__btns {
+  color: white;
+  opacity: 1;
+  height: 580px;
+  position: relative;
+  left: 1220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_ads_btn {
+  margin-bottom: 7px;
 }
