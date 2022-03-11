@@ -1,3 +1,7 @@
+.main_ads {
+  height: 580px;
+}
+
 .main_ads__main_ad_img {
   height: 580px;
   width: 100%;
@@ -48,4 +52,14 @@
 
 .main_ads_btn {
   margin-bottom: 7px;
+}
+
+.recommendation_list {
+  height: 660px;
+  width: 940px;
+}
+
+.recommendation_list__title {
+  font-size: 25px;
+  font-weight: 900;
 }
