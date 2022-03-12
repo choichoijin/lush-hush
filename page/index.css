@@ -53,13 +53,3 @@
 .main_ads_btn {
   margin-bottom: 7px;
 }
-
-.recommendation_list {
-  height: 660px;
-  width: 940px;
-}
-
-.recommendation_list__title {
-  font-size: 25px;
-  font-weight: 900;
-}

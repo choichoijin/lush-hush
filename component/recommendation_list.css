@@ -1,0 +1,79 @@
+.recommendation_list {
+  height: 660px;
+  width: 940px;
+}
+
+.recommendation_list__title {
+  font-size: 18px;
+  font-weight: 900;
+  margin-left: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.recommendation_list__container {
+  margin-left: 35px;
+  display: flex;
+}
+
+.recommendation_list__link {
+  width: 260px;
+  height: 380px;
+}
+
+.recommendation_list__link > img {
+  width: 220px;
+  height: 220px;
+  border-radius: 25px;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.recommendation_list__link__text {
+  text-align: center;
+}
+
+.recommendation_list__link__text > div:first-of-type {
+  font-size: 20px;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  margin: 30px;
+  height: 40px;
+}
+
+.recommendation_list__link__text > div:nth-of-type(2) {
+  font-size: 15px;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  margin: 8px;
+}
+
+.recommendation_list__link__text > a {
+  color: black;
+  font-size: 15px;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  margin: 10px;
+}
+
+.recommendation_list__link .caption {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.267);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.recommendation_list__link .caption:hover {
+  opacity: 1;
+}

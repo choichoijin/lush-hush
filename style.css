@@ -7,6 +7,7 @@
 /* component.file */
 @import "component/top.css";
 @import "component/talk_btn.css";
+@import "component/recommendation_list.css";
 
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
