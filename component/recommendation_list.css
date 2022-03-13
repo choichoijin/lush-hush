@@ -1,6 +1,6 @@
 .recommendation_list {
-  height: 660px;
-  width: 940px;
+  height: 600px;
+  width: 800px;
 }
 
 .recommendation_list__title {
@@ -76,4 +76,15 @@
 
 .recommendation_list__link .caption:hover {
   opacity: 1;
+}
+
+.recommendation_list__btns {
+  color: black;
+  display: flex;
+  height: 14px;
+  justify-content: center;
+}
+
+.recommendation_list__btn {
+  margin: 12px 3px;
 }
