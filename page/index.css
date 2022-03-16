@@ -53,3 +53,7 @@
 .main_ads_btn {
   margin-bottom: 7px;
 }
+
+.main_list {
+  display: flex;
+}
