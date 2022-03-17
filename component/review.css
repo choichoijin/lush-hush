@@ -28,6 +28,15 @@
 .review__content {
   line-height: 130%;
   margin: 20px 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(33, 33, 33, 1),
+    rgba(44, 44, 44, 0.6) 74%,
+    rgba(44, 44, 44, 0.2) 75%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .review__img {
