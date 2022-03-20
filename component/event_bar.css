@@ -1,0 +1,26 @@
+.event_bar {
+}
+
+.event_bar__event1 {
+  width: 550px;
+  height: 500px;
+  background-color: black;
+}
+
+.event_bar__event2 {
+  width: 705px;
+  height: 250px;
+  background-color: red;
+}
+
+.event_bar__event3 {
+  width: 350px;
+  height: 250px;
+  background-color: blue;
+}
+
+.event_bar__event4 {
+  width: 350px;
+  height: 250px;
+  background-color: yellow;
+}

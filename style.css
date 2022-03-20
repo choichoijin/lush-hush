@@ -9,6 +9,7 @@
 @import "component/talk_btn.css";
 @import "component/recommendation_list.css";
 @import "component/review.css";
+@import "component/event_bar.css";
 
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
