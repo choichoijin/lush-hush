@@ -1,26 +1,25 @@
 .event_bar {
+  display: grid;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 550px 350px 350px;
 }
 
 .event_bar__event1 {
-  width: 550px;
-  height: 500px;
   background-color: black;
+  grid-row-start: 1;
+  grid-row-end: 4;
 }
 
 .event_bar__event2 {
-  width: 705px;
-  height: 250px;
   background-color: red;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
 .event_bar__event3 {
-  width: 350px;
-  height: 250px;
   background-color: blue;
 }
 
 .event_bar__event4 {
-  width: 350px;
-  height: 250px;
   background-color: yellow;
 }
