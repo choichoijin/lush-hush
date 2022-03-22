@@ -1,7 +1,7 @@
 .event_bar {
   display: grid;
+  grid-template-columns: 550px 360px 360px;
   grid-template-rows: 250px 250px;
-  grid-template-columns: 550px 350px 350px;
 }
 
 .event_bar img {
