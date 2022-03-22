@@ -1,4 +1,10 @@
+.new {
+  padding-top: 80px;
+}
+
 .new video {
-  width: 900px;
+  width: 500px;
   height: 300px;
+  position: relative;
+  left: 600px;
 }
