@@ -22,7 +22,7 @@
 
 .event_bar__title {
   font-size: 45px;
-  font-weight: 650;
+  font-weight: 550;
   margin-bottom: 15px;
 }
 
@@ -51,8 +51,4 @@
   position: relative;
   top: -220px;
   left: 30px;
-}
-
-.event_bar__event4 {
-  background-color: yellow;
 }
