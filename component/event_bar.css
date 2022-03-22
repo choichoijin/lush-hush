@@ -18,6 +18,9 @@
 
 .event_bar__text {
   color: white;
+  position: relative;
+  top: -220px;
+  left: 30px;
 }
 
 .event_bar__title {
@@ -45,10 +48,4 @@
 .event_bar__event2 {
   grid-column-start: 2;
   grid-column-end: 4;
-}
-
-.event_bar__event2__text {
-  position: relative;
-  top: -220px;
-  left: 30px;
 }
