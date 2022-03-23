@@ -1,10 +1,29 @@
 .new {
   padding-top: 80px;
+  display: flex;
 }
 
 .new video {
-  width: 500px;
-  height: 300px;
-  position: relative;
-  left: 600px;
+  width: 400px;
+  height: 200px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.new__text {
+  margin-left: 300px;
+}
+
+.new__text__title {
+  font-size: 40px;
+  font-weight: 550;
+  line-height: 130%;
+  margin-bottom: 15px;
+}
+
+.new__text__intro {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--grey);
 }
