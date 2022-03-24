@@ -10,6 +10,11 @@
   opacity: 0.9;
 }
 
+.event_bar__event4 {
+  opacity: 0.9;
+}
+/*왜 이렇게 따로 추가안하면 적용안되는지?*/
+
 .event_bar__type {
   font-weight: 200;
   font-size: 16px;
