@@ -4,3 +4,28 @@
   background-color: black;
   margin-top: 180px;
 }
+
+.footer__up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__menu__li {
+  margin-right: 5px;
+}
+
+.footer__menu__ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer__menu__li {
+  width: 120px;
+  font-size: 13px;
+}
+
+.footer__menu__link {
+  text-decoration: none;
+  color: white;
+}
