@@ -1,5 +1,5 @@
 .footer {
-  height: 450px;
+  height: 480px;
   width: 100%;
   background-color: black;
 }
@@ -41,6 +41,7 @@
 
 .footer__down__text {
   margin: 20px 0;
+  line-height: 120%;
 }
 
 .footer__down__text1 {
@@ -90,4 +91,8 @@
   background-color: black;
   border-color: white;
   color: white;
+}
+
+.footer__down__right > .footer__down__text1 {
+  margin-top: 25px;
 }
