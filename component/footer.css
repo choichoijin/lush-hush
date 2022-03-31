@@ -7,6 +7,7 @@
 .footer__up {
   display: flex;
   height: 120px;
+  margin-left: 100px;
 }
 
 .footer__menu {
@@ -37,6 +38,7 @@
   color: white;
   display: flex;
   margin: 35px;
+  margin-left: 135px;
 }
 
 .footer__down__text {
