@@ -12,6 +12,7 @@
 @import "component/event_bar.css";
 @import "component/new.css";
 @import "component/footer.css";
+@import "component/footer_up.css";
 
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
