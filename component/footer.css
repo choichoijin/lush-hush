@@ -78,6 +78,10 @@
   color: grey;
 }
 
+.footer__down__sns > i {
+  margin: 5px;
+}
+
 .footer__down__right {
   margin-left: 65px;
 }
