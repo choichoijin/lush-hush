@@ -45,8 +45,8 @@
   color: white;
   opacity: 1;
   height: 580px;
-  position: relative;
-  left: 1220px;
+  position: absolute;
+  right: 70px;
   display: flex;
   flex-direction: column;
 }
