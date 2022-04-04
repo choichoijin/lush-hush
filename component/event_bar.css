@@ -1,8 +1,11 @@
 .event_bar {
   display: grid;
-  grid-template-columns: 550px 360px 360px;
+  width: 100%;
+  height: 500px;
+  grid-template-columns: 44% 28% 28%;
   grid-template-rows: 250px 250px;
 }
+/*크기 누르면 challenge이상해짐..*/
 
 .event_bar img {
   width: 100%;
