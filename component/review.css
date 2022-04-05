@@ -1,18 +1,19 @@
 .review {
-  width: 280px;
-  height: 500px;
-  padding-left: 20px;
-  font-weight: 900;
-  padding: 30px 80px;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 25px;
 }
 
-.review div:not(.review__title) {
+.review__text div:not(.review__title) {
   font-family: "Gothic A1", sans-serif;
 }
 
 .review__title {
   font-size: 25px;
   margin: 10px 0;
+  font-weight: 700;
 }
 
 .review__sub_title {
@@ -21,13 +22,12 @@
 }
 
 .review__name {
-  margin: 30px 0;
   color: rgb(88, 88, 88);
+  margin: 10px 0;
 }
 
 .review__content {
   line-height: 130%;
-  margin: 20px 0;
   background: linear-gradient(
     to bottom,
     rgba(33, 33, 33, 1),
@@ -37,10 +37,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  margin: 20px 0;
 }
 
 .review__img {
-  width: 100%;
+  width: 300px;
   height: 290px;
   border-radius: 10px;
 }
