@@ -52,8 +52,11 @@
 }
 
 .footer__down__text2 {
-  font-size: 14px;
   text-decoration: underline;
+}
+
+.footer__down__text1 > a {
+  margin-left: 20px;
 }
 
 .footer__down__text3 {
